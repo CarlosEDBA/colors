@@ -1,0 +1,140 @@
+/**
+ * Inputs
+ * 
+ */
+
+.input {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+}
+
+.input.input-small,
+.input.input-small input,
+.input.input-small textarea,
+.input.input-small select,
+.input.input-small .input-preview {
+	width: 125px;
+}
+
+.input.input-midmid,
+.input.input-midmid input,
+.input.input-midmid textarea,
+.input.input-midmid select,
+.input.input-midmid .input-preview {
+	width: 175px;
+}
+
+.input.input-medium,
+.input.input-medium input,
+.input.input-medium textarea,
+.input.input-medium select,
+.input.input-medium .input-preview {
+	width: 200px;
+}
+
+.input.input-big,
+.input.input-big input,
+.input.input-big textarea,
+.input.input-big select,
+.input.input-big .input-preview {
+	width: 300px;
+}
+
+.input.input-monster,
+.input.input-monster input,
+.input.input-monster textarea,
+.input.input-monster select,
+.input.input-monster .input-preview {
+	width: 500px;
+}
+
+.input label {
+	color: #898989;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: none;
+}
+
+.input input:not([type=radio]) {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #DDDDDD;
+	background-color: transparent;
+}
+
+.input input:focus {
+	outline: none;
+	border-bottom-width: 2px;
+}
+
+.input textarea {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.input textarea:focus {
+	outline: none;
+	border-bottom-width: 2px;
+}
+
+.input select {
+	font-family: 'Source Sans Pro', sans-serif;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #464646;
+	background-color: transparent;
+}
+
+.input select:focus {
+	outline: none;
+	border-bottom-width: 2px;
+}
+
+.input .input-preview {
+	font-family: 'Source Sans Pro', sans-serif;	
+	min-height: 22px;
+	margin: 0 0 8px 8px;
+}
+
+.input-radio {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+.input-radio-title {
+	margin: 0 5px;
+}
+
+.multi-input {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.multi-input .input {
+	margin: 0 20px 20px 0;
+}
+
+.input-title {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.input-description {
+	margin: 5px 0;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+}

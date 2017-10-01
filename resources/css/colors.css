@@ -1,0 +1,305 @@
+/**
+ * Colors
+ * 
+ */
+
+.white {
+	background: #fff;
+}
+
+	.white .section-title {
+		color: #464646;
+	}
+
+	.white .rowtitle {
+		color: #464646;
+	}
+
+	.white .rowsubtitle {
+		color: #646464;
+	}
+
+	.white .rowtext {
+		color: #464646;
+	}
+
+	.white .lighttext {
+		color: #898989;
+	}
+
+	.white .darktext {
+		color: #464646;
+	}
+
+	.white .bartitle {
+		color: #464646;
+	}
+
+	.white a {
+		color: #464646;
+	}
+
+	.white p {
+		color: #464646;
+	}
+
+	.white span {
+		color: #464646;
+	}
+
+	.white i {
+		color: #464646;
+	}
+
+
+.grey {
+	background: #eaeaea;
+}
+
+	.grey .section-title {
+		color: #464646;
+	}
+
+	.grey .rowtitle {
+		color: #464646;
+	}
+
+	.grey .rowsubtitle {
+		color: #898989;
+	}
+
+	.grey .rowtext {
+		color: #464646;
+	}
+
+	.grey .lighttext {
+		color: #898989;
+	}
+
+	.grey .darktext {
+		color: #464646;
+	}
+
+	.grey .bartitle {
+		color: #464646;
+	}
+
+	.grey a {
+		color: #464646;
+	}
+
+	.grey p {
+		color: #464646;
+	}
+
+	.grey span {
+		color: #464646;
+	}
+
+	.grey i {
+		color: #464646;
+	}
+
+
+.charade {
+	background: #262a33;
+}
+
+	.charade .section-title {
+		color: #cbd5ee;
+	}
+
+	.charade .subsection-title {
+		color: #CD2F44;
+	}
+
+	.charade .rowtitle {
+		color: #fff;
+	}
+
+	.charade .rowsubtitle {
+		color: #fff;
+	}
+
+	.charade .rowtext {
+		color: #fff;
+	}
+
+	.charade .lighttext {
+		color: #fff;
+	}
+
+	.charade .darktext {
+		color: #eee;
+	}
+
+	.charade .bartitle {
+		color: #fff;
+	}
+
+	.charade a {
+		color: #fff;
+	}
+
+	.charade p {
+		color: #fff;
+	}
+
+	.charade span {
+		color: #fff;
+	}
+
+	.charade i {
+		color: #fff;
+	}
+
+
+.pinkyred {
+	background: #CD2F44;
+}
+
+	.pinkyred .section-title {
+		color: #fff;
+	}
+
+	.pinkyred .subsection-title {
+		color: #CD2F44;
+	}
+
+	.pinkyred .rowtitle {
+		color: #fff;
+	}
+
+	.pinkyred .rowsubtitle {
+		color: #fff;
+	}
+
+	.pinkyred .rowtext {
+		color: #fff;
+	}
+
+	.pinkyred .lighttext {
+		color: #fff;
+	}
+
+	.pinkyred .darktext {
+		color: #eee;
+	}
+
+	.pinkyred .bartitle {
+		color: #fff;
+	}
+
+	.pinkyred a {
+		color: #fff;
+	}
+
+	.pinkyred p {
+		color: #fff;
+	}
+
+	.pinkyred span {
+		color: #fff;
+	}
+
+	.pinkyred i {
+		color: #fff;
+	}
+
+
+.darkgrey {
+	background: #1f1f1f;
+	color: #fff;
+}
+
+	.darkgrey .section-title {
+		color: #fff;
+	}
+
+	.darkgrey .rowtitle {
+		color: #fff;
+	}
+
+	.darkgrey .rowsubtitle {
+		color: #fff;
+	}
+
+	.darkgrey .rowtext {
+		color: #fff;
+	}
+
+	.darkgrey .lighttext {
+		color: #fff;
+	}
+
+	.darkgrey .darktext {
+		color: #eee;
+	}
+
+	.darkgrey .bartitle {
+		color: #fff;
+	}
+
+	.darkgrey a {
+		color: #fff;
+	}
+
+	.darkgrey p {
+		color: #fff;
+	}
+
+	.darkgrey span {
+		color: #fff;
+	}
+
+	.darkgrey i {
+		color: #fff;
+	}
+
+.image {
+	color: #fff;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+	.image .section-title {
+		color: #fff;
+	}
+
+	.image .rowtitle {
+		color: #fff;
+	}
+
+	.image .rowsubtitle {
+		color: #fff;
+	}
+
+	.image .rowtext {
+		color: #fff;
+	}
+
+	.image a {
+		color: #fff;
+	}
+
+	.image p {
+		color: #fff;
+	}
+
+	.image span {
+		color: #fff;
+	}
+
+	.image i {
+		color: #fff;
+	}
+
+	.image.noscroll {
+		background-attachment: scroll;
+	}

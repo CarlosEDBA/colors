@@ -1,0 +1,50 @@
+.flexrow {
+	display: flex;
+	flex-direction: row;
+}
+
+	.flexrow.centerx {
+		justify-content: center;
+	}
+
+	.flexrow.centery {
+		align-items: center;
+	}
+
+.flexcolumn {
+	display: flex;
+	flex-direction: column;
+}
+
+	.flexcolumn.centerx {
+		align-items: center;
+	}
+
+	.flexcolumn.centery {
+		justify-content: center;
+	}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.spacebetween {
+	justify-content: space-between;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.fullheight {
+	height: 100%;
+}
+

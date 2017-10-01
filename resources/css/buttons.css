@@ -1,0 +1,59 @@
+/*
+* Buttons
+*
+*/
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	border: none;
+	transition: all 160ms ease-in;
+	-webkit-transition: all 160ms ease-in;
+}
+
+/**
+ * Sizes
+ * 
+ */
+
+.btn.btn-small {
+	padding: 5px 10px 5px 10px;
+}
+
+.btn.btn-medium {
+	padding: 10px 18px 10px 18px;
+}
+
+.btn.btn-wide {
+	padding: 10px 25px 10px 25px;
+}
+
+.btn.btn-alpha {
+	color: #fff;
+	background-color: #878787;
+	font-size: 12px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.btn-alpha:hover {
+	background-color: #CD2F44;
+}
+
+.btn-beta {
+	color: #878787;
+	background-color: #f0f0f0;
+	border-radius: 3px;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: lowercase;
+	margin: 15px auto 0 auto;
+}
+
+.btn-beta:hover {
+	color: #fff;
+	background-color: #878787;
+}
